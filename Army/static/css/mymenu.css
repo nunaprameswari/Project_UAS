@@ -26,4 +26,9 @@ header .menu_side, .song_side {
     width: 25%;
     height: 90%;
     border: 1px solid #121213;
+    background: #111727;
+}
+
+header .song_side {
+    width: 75%;
 }
