@@ -4,9 +4,5 @@ from django.template import loader
 # Create your views here.
 
 def Army(request):
-    template = loader.get_template('army.html')
-    return HttpResponse(template.render())
-
-def army(request):
-    template = loader.get_template('army.html')
+    template = loader.get_template('menu.html')
     return HttpResponse(template.render())
