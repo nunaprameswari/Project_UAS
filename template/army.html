@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<link rel="stylesheet" href="{% static 'css/mymenu.css' %}">
+<head>
+    <title>
+    {% block title %}
+
+    {% endblock title %}
+    </title>
+</head>
+<body>
+    
+    {% block menu %}
+
+    {% endblock menu %}
+
+    {% block content %}
+
+    {% endblock content %}
+</body>
+</html>
