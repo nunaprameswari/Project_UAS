@@ -5,12 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/mymenu.css' %}">
+    <link rel="stylesheet" href="{% static 'css/musicku.css' %}">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Bangtan</title>
+    <title>Document</title>
 </head>
 <body>
-    <header></header>
-    <script src="{% static 'js/menus.js' %}"></script>
+    <header>
+        <div class="menu_side">
+            <h1><img src="{% static 'img/logo.png' %}" alt=""> BTS</h1>
+            <div class="playlist">
+                <h4><span></span><i class='bx bx-music'></i> Playlist</h4>
+                <h4><span></span><i class='bx bx-music'></i> Last Listening</h4>
+                <h4><span></span><i class='bx bx-music'></i> Recommended</h4>
+            </div>
+        </div>
+        <div class="song_side"></div>
+        <div class="master_play"></div>
+    </header>
+    <script src="mymusic.js"></script>
 </body>
 </html>
