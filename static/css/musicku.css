@@ -202,3 +202,11 @@ header .master_play .wave .wave1 {
     margin-right: 3px;
     border-radius: 10px 10px 0px 0px;
 }
+
+header .master_play .wave .wave1:nth-child(2) {
+    height: 13px;
+}
+
+header .master_play .wave .wave1:nth-child(3) {
+    height: 8px;
+}
