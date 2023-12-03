@@ -119,3 +119,11 @@ header .menu_side .menu_song {
     border: 1px solid #fff;
     margin-top: 40px;
 }
+
+header .menu_side .menu_song li {
+    list-style-type: none;
+    position: relative;
+    padding: 5px 0px 5px 20px;
+    display: flex;
+    align-items: center;
+}
