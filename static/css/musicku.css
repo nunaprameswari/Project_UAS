@@ -132,5 +132,5 @@ header .menu_side .menu_song li {
 }
 
 header .menu_side .menu_song li:hover {
-    background: rgb(105, 105, 105, .1);
+    background: rgba(73, 1, 102, 0.507);
 }
