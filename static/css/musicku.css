@@ -134,3 +134,9 @@ header .menu_side .menu_song li {
 header .menu_side .menu_song li:hover {
     background: rgba(73, 1, 102, 0.507);
 }
+
+header .menu_side .menu_song li span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c5262;
+}
