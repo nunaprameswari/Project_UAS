@@ -126,4 +126,6 @@ header .menu_side .menu_song li {
     padding: 5px 0px 5px 20px;
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
