@@ -178,3 +178,9 @@ header .menu_side .menu_song li .bx {
     position: absolute;
     right: 20px;
 }
+
+header .master_play {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
