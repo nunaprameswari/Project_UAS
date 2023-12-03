@@ -155,3 +155,8 @@ header .menu_side .menu_song li h5 {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+header .menu_side .menu_song li h5 .subtitle {
+    font-size: 9px;
+    color: #4c5262;
+}
