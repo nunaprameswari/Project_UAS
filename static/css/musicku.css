@@ -118,16 +118,15 @@ header .menu_side .menu_song {
     height: 380px;
     /*border: 1px solid #fff;*/
     margin-top: 40px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    overflow: auto;
 }
 
 header .menu_side .menu_song::-webkit-scrollbar {
-    width: 2px;
+    width: 5px;
 }
 
 header .menu_side .menu_song::-webkit-scrollbar-thumb {
-    background: #4c5262;
+    background: #611c81;
 }
 
 header .menu_side .menu_song::-webkit-scrollbar-track {
