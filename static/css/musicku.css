@@ -146,3 +146,12 @@ header .menu_side .menu_song li img {
     height: 32px;
     margin-left: 25px;
 }
+
+header .menu_side .menu_song li h5 {
+    font-size: 11px;
+    margin-left: 15px;
+    width: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
