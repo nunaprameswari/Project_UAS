@@ -248,11 +248,20 @@ header .master_play img {
 
 header .master_play h5 {
     width: 130px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     margin-left: 15px;
     color: #fff;
     line-height: 17px;
     overflow: ellipsis;
     white-space: nowrap;
     font-size: 13px;
+}
+
+header .master_play h5 .subtitle {
+    font-size: 11px;
+    color: #4c5262;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
