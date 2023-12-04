@@ -218,8 +218,7 @@ header .master_play .wave .wave1:nth-child(3) {
 /* javascript classes */
 
 header .master_play .active1 .wave1 {
-    height: 8px;
-    animation-delay: .8s;
+    animation-delay: wave .5s linear infinite;
 }
 
 header .master_play .active1 .wave1:nth-child(2) {
