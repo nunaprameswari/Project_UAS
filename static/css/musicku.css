@@ -245,3 +245,14 @@ header .master_play img {
     width: 35px;
     height: 35px;
 }
+
+header .master_play h5 {
+    width: 130px;
+    border: 1px solid #fff;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 17px;
+    overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+}
