@@ -296,3 +296,10 @@ header .master_play .icon #download_music {
     font-size: 20px;
     margin-left: 5px;
 }
+
+header .master_play .icon .bx:nth-child(3) {
+    border: 1px solid rgba(47, 7, 63, 0.507);
+    border-radius: 50%;
+    padding: 1px 5px 0px 7px;
+    margin: 0px 5px;
+}
