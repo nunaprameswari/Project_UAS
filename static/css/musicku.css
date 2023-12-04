@@ -275,3 +275,8 @@ header .master_play .icon {
     display: flex;
     align-items: center;
 }
+
+header .master_play .icon .bx {
+    cursor: pointer;
+    outline: none;
+}
