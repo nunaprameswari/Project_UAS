@@ -320,6 +320,15 @@ header .master_play .bar {
     position: relative;
     width: 43px;
     height: 2px;
-    background: rgba(73, 1, 102, 0.507);
+    background: rgba(47, 7, 63, 0.507);
     margin: 0px 15px 0px 10px;
+}
+
+header.master_play .bar .bar2 {
+    position: absolute;
+    background: #8131a7;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    transition: 1s linear;
 }
