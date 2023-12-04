@@ -175,6 +175,7 @@ header .menu_side .menu_song li h5 .subtitle {
 }
 
 header .menu_side .menu_song li .bx {
+    color: #8131a7;
     position: absolute;
     right: 20px;
 }
