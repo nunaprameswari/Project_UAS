@@ -315,3 +315,11 @@ header .master_play span {
 header .master_play #currentStart {
     margin: 2px 0px 0px 20px;
 }
+
+header .master_play .bar {
+    position: relative;
+    width: 43px;
+    height: 2px;
+    background: rgba(73, 1, 102, 0.507);
+    margin: 0px 15px 0px 10px;
+}
