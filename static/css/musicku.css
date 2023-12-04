@@ -175,6 +175,7 @@ header .menu_side .menu_song li h5 .subtitle {
 }
 
 header .menu_side .menu_song li .bx {
+    font-size: 20px;
     color: #8131a7;
     position: absolute;
     right: 20px;
@@ -277,15 +278,21 @@ header .master_play .icon {
 }
 
 header .master_play .icon .bx {
+    font-size: 23px;
     cursor: pointer;
     outline: none;
 }
 
 header .master_play .icon .shuffle {
-    font-size: 17px;
+    font-size: 18px;
     margin-right: 10px;
     width: 17.5px;
     overflow: hidden;
     display: flex;
     align-items: center;
+}
+
+header .master_play .icon #download_music {
+    font-size: 20px;
+    margin-left: 5px;
 }
