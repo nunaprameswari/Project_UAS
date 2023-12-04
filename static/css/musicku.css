@@ -311,3 +311,7 @@ header .master_play span {
     font-size: 13px;
     font-weight: 400;
 }
+
+header .master_play #currentStart {
+    margin: 2px 0px 0px 20px;
+}
