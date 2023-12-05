@@ -366,3 +366,11 @@ header .master_play .bar input {
     /* transition: 3s linear; */
     opacity: 0;
 }
+
+header .master_play .vol {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    background: rgba(47, 2, 65, 0.507);
+    margin-left: 50px;
+}
