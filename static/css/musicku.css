@@ -307,7 +307,7 @@ header .master_play .icon .bx:nth-child(3) {
 header .master_play span {
     color: #fff;
     width: 32px;
-    /*border: 1px solid #fff;*/
+    border: 1px solid #fff;
     font-size: 13px;
     font-weight: 400;
 }
