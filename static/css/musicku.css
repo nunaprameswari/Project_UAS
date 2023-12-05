@@ -307,7 +307,7 @@ header .master_play .icon .bx:nth-child(3) {
 header .master_play span {
     color: #fff;
     width: 32px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     font-size: 13px;
     font-weight: 400;
 }
@@ -318,13 +318,13 @@ header .master_play #currentStart {
 
 header .master_play .bar {
     position: relative;
-    width: 43px;
+    width: 43%;
     height: 2px;
     background: rgba(47, 7, 63, 0.507);
     margin: 0px 15px 0px 10px;
 }
 
-header.master_play .bar .bar2 {
+header .master_play .bar .bar2 {
     position: absolute;
     background: #8131a7;
     width: 50%;
