@@ -399,5 +399,17 @@ header .master_play .vol .vol_bar {
     width: 50%;
     height: 100%;
     top: 0;
-    transition: 1s linear;
+    transition: 1s linear
+}
+
+header .master_play .vol .dot::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #8131a7;
+    border-radius: 50%;
+    left: -7px;
+    top: -8px;
+    box-shadow: inset 0px 0px 3px #8131a7;
 }
