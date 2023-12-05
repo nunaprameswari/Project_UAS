@@ -382,3 +382,13 @@ header .master_play .vol .bx {
     top: -10px;
     left: -30px;
 }
+
+header .master_play .vol input {
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    left: 0;
+    cursor: pointer;
+    z-index: 999999999999999999999999999;
+    opacity: 0;
+}
