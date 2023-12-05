@@ -449,3 +449,7 @@ header .song_side nav {
     align-items: center;
     justify-content: space-between;
 }
+
+header .song_side nav ul {
+    display: flex;
+}
