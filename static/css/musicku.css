@@ -343,3 +343,15 @@ header .master_play .bar .dot {
     top: -1.5px;
     transition: 1s linear;
 }
+
+header .master_play .bar .dot::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #8131a7;
+    border-radius: 50%;
+    left: -7px;
+    top: -6.5px;
+    box-shadow: inset 0px 0px 3px #8131a7;
+}
