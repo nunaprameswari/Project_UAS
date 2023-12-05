@@ -463,3 +463,7 @@ header .song_side nav ul li {
     cursor: pointer;
     transition: .3s linear;
 }
+
+header .song_side nav ul li:hover {
+    color: #b75ae2;
+}
