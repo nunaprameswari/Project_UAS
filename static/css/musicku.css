@@ -371,6 +371,14 @@ header .master_play .vol {
     position: relative;
     width: 100px;
     height: 2px;
-    background: rgba(47, 2, 65, 0.507);
+    background: rgba(55, 8, 73, 0.507);
     margin-left: 50px;
+}
+
+header .master_play .vol .bx {
+    position: absolute;
+    color: #8131a7;
+    font-size: 20px;
+    top: -10px;
+    left: -30px;
 }
