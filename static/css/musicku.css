@@ -453,3 +453,7 @@ header .song_side nav {
 header .song_side nav ul {
     display: flex;
 }
+
+header .song_side nav ul li {
+    list-style: none;
+}
