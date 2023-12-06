@@ -561,7 +561,7 @@ header .song_side .popular_song {
     height: auto;
     margin: auto;
     margin-top: 15px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
 }
 
 header .song_side .popular_song .h4 {
@@ -585,9 +585,13 @@ header .song_side .popular_song .pop_song {
     height: 150px;
     margin-top: 15px;
     display: flex;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     overflow: auto;
     scroll-behavior: smooth;
+}
+
+header .song_side .popular_song .pop_song::-webkit-scrollbar {
+    display: none;
 }
 
 header .song_side .popular_song .pop_song li {
