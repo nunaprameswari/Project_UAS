@@ -599,3 +599,12 @@ header .song_side .popular_song .pop_song li {
 header .song_side .popular_song .pop_song li:hover {
     background: rgba(35, 9, 46, 0.507);
 }
+
+header .song_side .popular_song .pop_song li .img_play {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
