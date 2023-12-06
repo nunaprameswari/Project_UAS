@@ -593,6 +593,7 @@ header .song_side .popular_song .pop_song li {
     height: 140px;
     list-style-type: none;
     margin-right: 10px;
+    cursor: pointer;
     transition: .3s linear;
 }
 
@@ -607,6 +608,8 @@ header .song_side .popular_song .pop_song li .img_play {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: .3s linear;
 }
 
 header .song_side .popular_song .pop_song li .img_play img {
