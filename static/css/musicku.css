@@ -573,4 +573,5 @@ header .song_side .popular_song .h4 {
 header .song_side .popular_song .h4 .bx {
     color: #d47ef7;
     cursor: pointer;
+    transition: .3s linear;
 }
