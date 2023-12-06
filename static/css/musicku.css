@@ -530,3 +530,11 @@ header .song_side nav .user img {
     border-radius: 50%;
     box-sizing: 2px 2px 8px #8131a7;
 }
+
+header .song_side .content {
+    width: 90%;
+    height: 30%;
+    border: 1px solid #fff;
+    margin: auto;
+    padding-top: 20px;
+}
