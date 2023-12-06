@@ -664,3 +664,13 @@ header .song_side .popular_artist .h4 .bx {
 header .song_side .popular_artist .h4 .bx:hover {
     color: #441457;
 }
+
+header .song_side .popular_artist .item {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+    display: flex;
+    /*border: 1px solid #fff;*/
+    overflow: auto;
+    scroll-behavior: smooth;
+}
