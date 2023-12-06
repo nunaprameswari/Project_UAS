@@ -620,7 +620,7 @@ header .song_side .popular_song .pop_song li .img_play img {
 header .song_side .popular_song .pop_song li h5 {
     padding: 5px 0px 0px 5px;
     line-height: 15px;
-    font-style: 10px;
+    font-size: 10px;
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
