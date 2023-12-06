@@ -482,3 +482,11 @@ header .song_side nav ul li span {
     border-radius: 20px;
 }
 
+header .song_side nav .search {
+    position: relative;
+    width: 40%;
+    padding: 1px 10px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: #8131a7;
+}
