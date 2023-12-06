@@ -465,11 +465,11 @@ header .song_side nav ul li {
 }
 
 header .song_side nav ul li:hover {
-    color: #b75ae2;
+    color: #d47ef7;
 }
 
 header .song_side nav ul li:nth-child(1) {
-    color: #fff;
+    color: #d47ef7;
 }
 
 header .song_side nav ul li span {
