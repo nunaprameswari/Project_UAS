@@ -569,3 +569,8 @@ header .song_side .popular_song .h4 {
     align-items: center;
     justify-content: space-between;
 }
+
+header .song_side .popular_song .h4 .bx {
+    color: #d47ef7;
+    cursor: pointer;
+}
