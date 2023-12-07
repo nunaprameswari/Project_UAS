@@ -5,6 +5,51 @@ const songs = [
         id: 1,
         songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
         poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker <br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
+    },
+    {
+        id: 1,
+        songName: 'Spine Breaker<br> <div class="subtitle"> Skool Luv Affair Special Addition</div>',
+        poster: "img/spine.jpg"
     }
 ]
 
