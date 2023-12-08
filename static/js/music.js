@@ -136,6 +136,36 @@ const songs = [
         songName: `Map Of The Soul:PERSONA (2020)`,
         poster: "./static/img/25.jpg",
     },
+    {
+        id: '26',
+        songName: `Map Of The Soul 7 (2020)`,
+        poster: "./static/img/26.jpg",
+    },
+    {
+        id: '27',
+        songName: `Dynamite (2020)`,
+        poster: "./static/img/27.jpg",
+    },
+    {
+        id: '28',
+        songName: `BE (2020)`,
+        poster: "./static/img/28.png",
+    },
+    {
+        id: '29',
+        songName: `BTS, The Best (2021)`,
+        poster: "./static/img/29.png",
+    },
+    {
+        id: '30',
+        songName: `BUTTER (2021)`,
+        poster: "./static/img/30.png",
+    },
+    {
+        id: '31',
+        songName: `PROOF (2022)`,
+        poster: "./static/img/31.jpg",
+    },
 ]
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
