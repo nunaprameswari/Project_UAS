@@ -188,9 +188,16 @@ masterPlay.addEventListener('click', () => {
         masterPlay.classList.add('bx-play');
         masterPlay.classList.remove('bx-pause');
     }
+});
+
+let index = 0;
+
+Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
+    e.addEventListener('click', (el) => {
+        index = el.target.id;
+        console.log(index);
+    })
 })
-
-
 
 let pop_song_left = document.getElementById('pop_song_left');
 let pop_song_right = document.getElementById('pop_song_right');
