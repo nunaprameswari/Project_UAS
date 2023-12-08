@@ -174,15 +174,19 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
 });
 
 let masterPlay = document.getElementById('masterPlay');
-let wave = document.getElementById('wave');
+let wavev = document.getElementById('wavev');
 
-masterPlay.addEventListener('click', ()=> {
+masterPlay.addEventListener('click', () => {
     if (music.paused || music.currentTime <= 0) {
         music.play();
-        wave.classList.add('active1');
+        wavev.classList.add('active1');
+        masterPlay.classList.remove('bx-play');
+        masterPlay.classList.add('bx-pause');
     } else {
         music.pause();
-        wave.classList.remove('active1');
+        wavev.classList.remove('active1');
+        masterPlay.classList.add('bx-play');
+        masterPlay.classList.remove('bx-pause');
     }
 })
 
