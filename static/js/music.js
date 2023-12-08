@@ -181,7 +181,7 @@ masterPlay.addEventListener('click', ()=> {
         music.play();
         wave.classList.add('active1');
     } else {
-        music.paused();
+        music.pause();
         wave.classList.remove('active1');
     }
 })
