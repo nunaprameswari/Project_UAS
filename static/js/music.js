@@ -63,6 +63,51 @@ const songs = [
     },
     {
         id: '11',
+        songName: `2 Cool 4 Skool [1st Single]`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
+        songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
+        poster: "./static/img/spring day.jpg",
+    },
+    {
+        id: '11',
         songName: `Spine Breaker <br> <div class="subtitle">Skool Luv Affair Special Addition</div>`,
         poster: "./static/img/spring day.jpg",
     },
