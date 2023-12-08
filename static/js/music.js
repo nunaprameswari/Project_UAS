@@ -195,7 +195,9 @@ let index = 0;
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
-        console.log(index);
+        //console.log(index);
+        music.src = `./static/songs/${index}.mp3`;
+        music.play();
     })
 })
 
