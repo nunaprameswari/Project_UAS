@@ -29,7 +29,7 @@ const songs = [
         id: '5',
         songName: `Louder than bombs <br>
         <div class="subtitle">Map of the Soul: 7</div>`,
-        poster: "./static/img/louder than bombs.jpg",
+        poster: "./static/img/5.jpg",
     },
     {
         id: '6',
@@ -192,12 +192,13 @@ masterPlay.addEventListener('click', () => {
 
 let index = 0;
 let poster_master_play = document.getElementById('poster_master_play');
+let title = document.getElementById('title');
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
         //console.log(index);
         music.src = `./static/songs/${index}.mp3`;
-        poster_master_play.src = `./static/img/${index}.jpg`;
+        //poster_master_play.src = `./static/img/${index}.jpg`;
         music.play();
         masterPlay.classList.remove('bx-play');
         masterPlay.classList.add('bx-pause');
@@ -207,7 +208,9 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
         });
 
         songTitles.forEach(elss =>{
-            let {songName} = elss;
+            let { songName, poster } = elss;
+            title.innerHTML = songName;
+            poster_master_play.src = poster;
         })
 
     })
