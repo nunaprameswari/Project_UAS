@@ -11,7 +11,7 @@ const songs = [
         id: '2',
         songName: `Danger <br>
         <div class="subtitle">Wake Up</div>`,
-        poster: "./static/img/danger.jpg",
+        poster: "./static/img/2.jpg",
     },
     {
         id: '3',
@@ -191,13 +191,25 @@ masterPlay.addEventListener('click', () => {
 });
 
 let index = 0;
-
+let poster_master_play = document.getElementById('poster_master_play');
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
         //console.log(index);
         music.src = `./static/songs/${index}.mp3`;
+        poster_master_play.src = `./static/img/${index}.jpg`;
         music.play();
+        masterPlay.classList.remove('bx-play');
+        masterPlay.classList.add('bx-pause');
+
+        let songTitles = songs.filter((els) =>{
+            return els.id == index;
+        });
+
+        songTitles.forEach(elss =>{
+            let {songName} = elss;
+        })
+
     })
 })
 
