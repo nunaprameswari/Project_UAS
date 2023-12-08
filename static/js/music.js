@@ -111,6 +111,31 @@ const songs = [
         songName: `Wings, You Never Walk Alone (2017)`,
         poster: "./static/img/20.jpg",
     },
+    {
+        id: '21',
+        songName: `Wings, You Never Walk Alone (2017)`,
+        poster: "./static/img/21.jpg",
+    },
+    {
+        id: '22',
+        songName: `Face Yourself (2018)`,
+        poster: "./static/img/22.jpg",
+    },
+    {
+        id: '23',
+        songName: `Love Yourself 轉 Tear (2018)`,
+        poster: "./static/img/23.jpg",
+    },
+    {
+        id: '24',
+        songName: `Love Yourself 结 Answer (2018)`,
+        poster: "./static/img/24.jpg",
+    },
+    {
+        id: '25',
+        songName: `Map Of The Soul:PERSONA (2020)`,
+        poster: "./static/img/25.jpg",
+    },
 ]
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
