@@ -5,7 +5,7 @@ const songs = [
         id: '1',
         songName: `Spine Breaker <br>
         <div class="subtitle">Skool Luv Affair Special Addition</div>`,
-        poster: "./static/img/spine.jpg",
+        poster: "./static/img/13.jpg",
     },
     {
         id: '2',
@@ -17,7 +17,7 @@ const songs = [
         id: '3',
         songName: `Dynamite <br>
         <div class="subtitle">Be</div>`,
-        poster: "./static/img/Dynamite.png",
+        poster: "./static/img/27.jpg",
     },
     {
         id: '4',
@@ -190,9 +190,10 @@ masterPlay.addEventListener('click', () => {
     }
 });
 
-const makeAllBackground = () =>{
-    Array.from(document.getElementsByClassName('songItem')).forEach((el) =>{
-        el.style.background = 'rgba(73, 1, 102, 0.507)';
+const makeAllPlays = () =>{
+    Array.from(document.getElementsByClassName('playListPlay')).forEach((el) =>{
+        el.classList.add('bx-play-circle');
+        el.classList.remove('bx-pause-circle');
     })
 }
 
@@ -217,9 +218,13 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
             let { songName, poster } = elss;
             title.innerHTML = songName;
             poster_master_play.src = poster;
-        })
+        });
 
-    })
+        makeAllPlays();
+        el.target.classList.remove('bx-play-circle');
+        el.target.classList.add('bx-pause-circle');
+        wavev.classList.add('active1');
+    });
 })
 
 let pop_song_left = document.getElementById('pop_song_left');
