@@ -164,7 +164,7 @@ const songs = [
     {
         id: '31',
         songName: `PROOF (2022)`,
-        poster: "./static/img/31.jpg",
+        poster: "./static/img/32.jpg",
     },
 ]
 
