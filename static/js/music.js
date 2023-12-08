@@ -73,7 +73,7 @@ const songs = [
     },
     {
         id: '13',
-        songName: `Skoll Luv Affair (2014)`,
+        songName: `Skool Luv Affair (2014)`,
         poster: "./static/img/13.jpg",
     },
     {
