@@ -174,10 +174,12 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
 });
 
 let masterPlay = document.getElementById('masterPlay');
+let wave = document.getElementById('wave');
 
 masterPlay.addEventListener('click', ()=> {
     if (music.paused || music.currentTime <= 0) {
         music.play();
+        wave.classList.add('active1');
     } else {
         music.paused();
     }
