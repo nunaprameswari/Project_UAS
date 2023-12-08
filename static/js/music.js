@@ -173,6 +173,16 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
     e.getElementsByTagName('h5')[0].innerHTML = songs[i].songName;
 });
 
+let masterPlay = document.getElementById('masterPlay');
+
+masterPlay.addEventListener('click', ()=> {
+    if (music.paused || music.currentTime <= 0) {
+        music.play();
+    } else {
+        music.paused();
+    }
+})
+
 
 
 let pop_song_left = document.getElementById('pop_song_left');
