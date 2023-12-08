@@ -190,6 +190,12 @@ masterPlay.addEventListener('click', () => {
     }
 });
 
+const makeAllBackground = () =>{
+    Array.from(document.getElementsByClassName('songItem')).forEach((el) =>{
+        el.style.background = 'rgba(73, 1, 102, 0.507)';
+    })
+}
+
 let index = 0;
 let poster_master_play = document.getElementById('poster_master_play');
 let title = document.getElementById('title');
