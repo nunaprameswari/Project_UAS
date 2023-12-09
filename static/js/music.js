@@ -258,6 +258,7 @@ music.addEventListener('timeupdate', () => {
     //console.log(seek.value);
     let seekbar = seek.value;
     bar2.style.width = `${seekbar}%`;
+    dot.style.left = `${seekbar}%`;
 })
 
 let pop_song_left = document.getElementById('pop_song_left');
