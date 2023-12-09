@@ -329,7 +329,7 @@ header .master_play .bar {
 header .master_play .bar .bar2 {
     position: absolute;
     background: #8131a7;
-    width: 50%;
+    width: 0%;
     height: 100%;
     top: 0;
     transition: 1s linear;
