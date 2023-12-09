@@ -230,6 +230,15 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
 let currentStart = document.getElementById('currentStart');
 let currentEnd = document.getElementById('currentEnd');
 
+music.addEventListener('timeupdate', () => {
+    let music_curr = music.currentTime;
+    let music_dur = music.duration;
+    //console.log(music_dur);
+
+    let min1 = Math.floor(music_dur / 60);
+    let sec1 = Math.floor(music_dur % 60);
+})
+
 let pop_song_left = document.getElementById('pop_song_left');
 let pop_song_right = document.getElementById('pop_song_right');
 let pop_song = document.getElementsByClassName('pop_song')[0];
