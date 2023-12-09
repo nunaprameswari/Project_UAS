@@ -233,10 +233,14 @@ let currentEnd = document.getElementById('currentEnd');
 music.addEventListener('timeupdate', () => {
     let music_curr = music.currentTime;
     let music_dur = music.duration;
-    //console.log(music_dur);
-
+    
     let min1 = Math.floor(music_dur / 60);
     let sec1 = Math.floor(music_dur % 60);
+    
+    //console.log(min1);
+
+    currentStart.innerText = `${min1}:${sec1}`;
+
 })
 
 let pop_song_left = document.getElementById('pop_song_left');
