@@ -245,7 +245,10 @@ music.addEventListener('timeupdate', () => {
     
     let min2 = Math.floor(music_curr / 60);
     let sec2 = Math.floor(music_curr % 60);
-    
+    if (sec2 < 10) {
+        sec2 = `0${sec2}`;
+    }
+
     currentStart.innerText = `${min2}:${sec2}`;
 })
 
