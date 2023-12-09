@@ -319,6 +319,30 @@ back.addEventListener('click', () => {
         wavev.classList.add('active1');
 })
 
+next.addEventListener('click', () => {
+    index ++;
+    music.src = `./static/songs/${index}.mp3`;
+        //poster_master_play.src = `./static/img/${index}.jpg`;
+        music.play();
+        masterPlay.classList.remove('bx-play');
+        masterPlay.classList.add('bx-pause');
+
+        let songTitles = songs.filter((els) =>{
+            return els.id == index;
+        });
+
+        songTitles.forEach(elss =>{
+            let { songName, poster } = elss;
+            title.innerHTML = songName;
+            poster_master_play.src = poster;
+        });
+
+        makeAllPlays();
+        el.target.classList.remove('bx-play-circle');
+        el.target.classList.add('bx-pause-circle');
+        wavev.classList.add('active1');
+})
+
 let pop_song_left = document.getElementById('pop_song_left');
 let pop_song_right = document.getElementById('pop_song_right');
 let pop_song = document.getElementsByClassName('pop_song')[0];
