@@ -227,6 +227,9 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     });
 })
 
+let currentStart = document.getElementById('currentStart');
+let currentEnd = document.getElementById('currentEnd');
+
 let pop_song_left = document.getElementById('pop_song_left');
 let pop_song_right = document.getElementById('pop_song_right');
 let pop_song = document.getElementsByClassName('pop_song')[0];
