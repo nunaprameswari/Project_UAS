@@ -259,6 +259,10 @@ music.addEventListener('timeupdate', () => {
     let seekbar = seek.value;
     bar2.style.width = `${seekbar}%`;
     dot.style.left = `${seekbar}%`;
+});
+
+seek.addEventListener('change', () => {
+    music.currentTime = seek.value * music.duration / 100;
 })
 
 let pop_song_left = document.getElementById('pop_song_left');
