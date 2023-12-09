@@ -242,7 +242,11 @@ music.addEventListener('timeupdate', () => {
         sec1 = `0${sec1}`;
     }
     currentEnd.innerText = `${min1}:${sec1}`;
-
+    
+    let min2 = Math.floor(music_curr / 60);
+    let sec2 = Math.floor(music_curr % 60);
+    
+    currentStart.innerText = `${min2}:${sec2}`;
 })
 
 let pop_song_left = document.getElementById('pop_song_left');
