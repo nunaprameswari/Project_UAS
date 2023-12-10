@@ -464,18 +464,30 @@ header .song_side nav ul li:hover {
     color: #d47ef7;
 }
 
-header .song_side nav ul li:nth-child(1) {
-    color: #d47ef7;
+header .song_side_1 {
+    display: none;
 }
 
-header .song_side nav ul li span {
+header .song_side nav ul li:hover .song_side_1 {
+    display: block;
     position: absolute;
-    width: 100%;
-    height: 2.5px;
-    background: #8131a7;
-    bottom: -5px;
-    left: 0;
-    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+header .song_side nav ul li:hover .song_side_1 ul {
+    display: block;
+    margin: 5px;
+}
+
+header .song_side nav ul li:hover .song_side_1 ul li {
+    font-size: 10px;
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
 }
 
 header .song_side nav .user {
@@ -491,24 +503,4 @@ header .song_side nav .user img {
     height: 100%;
     border-radius: 50%;
     box-sizing: 2px 2px 8px #8131a7;
-}
-
-header .song_side .menu{
-    width: 90%;
-    height: auto;
-    margin: auto;
-    margin-top: 15px;
-    border: 1px solid #fff;
-}
-
-header .song_side .menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .song_side .menu .bx {
-    color: #d47ef7;
-    cursor: pointer;
-    transition: .3s linear;
 }
