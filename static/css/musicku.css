@@ -98,10 +98,7 @@ header .menu_side .playlist h4:hover span::before {
     border: 2px solid #d47ef7;
 }
 
-header .menu_side .playlist a {
-    list-style: none;
-    border: 1px solid #fff;
-}
+
 
 header .menu_side .playlist h4 .bx {
     display: none;
