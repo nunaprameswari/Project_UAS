@@ -492,3 +492,23 @@ header .song_side nav .user img {
     border-radius: 50%;
     box-sizing: 2px 2px 8px #8131a7;
 }
+
+header .song_side .menu{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
+
+header .song_side .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .song_side .menu .bx {
+    color: #d47ef7;
+    cursor: pointer;
+    transition: .3s linear;
+}
