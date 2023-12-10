@@ -100,7 +100,11 @@ header .menu_side .playlist h4:hover span::before {
 
 header .menu_side .playlist a {
     text-decoration: none;
-    color: #8131a7;
+    color: #4c5262;
+}
+
+header .menu_side .playlist a:hover {
+    color: #d47ef7;
 }
 
 header .menu_side .playlist h4 .bx {
@@ -108,10 +112,6 @@ header .menu_side .playlist h4 .bx {
 }
 
 header .menu_side .playlist .active {
-    color: #8131a7;
-}
-
-header .menu_side .playlist .actived {
     color: #d47ef7;
 }
 
@@ -119,12 +119,6 @@ header .menu_side .playlist .active .bx {
     display: flex;
     margin-right: 20px;
 }
-
-header .menu_side .playlist .actived .bx {
-    display: flex;
-    margin-right: 20px;
-}
-
 
 header .menu_side .menu_song {
     width: 100%;
