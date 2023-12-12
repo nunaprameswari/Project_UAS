@@ -332,7 +332,7 @@ header .master_play .bar {
     width: 43%;
     height: 2px;
     background: rgba(47, 7, 63, 0.507);
-    margin: 0px 15px 0px 10px;
+    margin: 0px 20px 0px 10px;
 }
 
 header .master_play .bar .bar2 {
@@ -653,7 +653,7 @@ header .song_side .popular_song .pop_song li h5 .subtitle {
 header .song_side .popular_artist {
     width: 90%;
     height: auto;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     margin: auto;
     margin-top: 15px;
 }
