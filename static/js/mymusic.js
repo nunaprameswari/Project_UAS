@@ -89,6 +89,36 @@ const songs = [
         <div class="subtitle">WINGS (2016)</div>`,
         poster: "./static/img/Blood_Sweat_Tears1.jpg",
     },
+    {
+        id: '16',
+        songName: `Boy With Luv (Feat. Halsey)
+        <div class="subtitle">Map Of The Soul : PERSONA (2020)</div>`,
+        poster: "./static/img/Boy_With_Luv1.jpg",
+    },
+    {
+        id: '17',
+        songName: `Butter
+        <div class="subtitle">BUTTER (2021)</div>`,
+        poster: "./static/img/Butter1.jpg",
+    },
+    {
+        id: '18',
+        songName: `DNA
+        <div class="subtitle">Loove Yourself 承 Her (2017)</div>`,
+        poster: "./static/img/DNA1.jpg",
+    },
+    {
+        id: '19',
+        songName: `쩔어 (Dope)
+        <div class="subtitle">In The Mood For Love pt.1 (2015)</div>`,
+        poster: "./static/img/DOPE1.jpg",
+    },
+    {
+        id: '20',
+        songName: `Dynamite
+        <div class="subtitle">Dynamite (2020)</div>`,
+        poster: "./static/img/Dynamite1.jpeg",
+    },
 ]
 
 
