@@ -59,6 +59,36 @@ const songs = [
         <div class="subtitle">BE (2020)</div>`,
         poster: "./static/img/life_goes_on1.jpg",
     },
+    {
+        id: '11',
+        songName: `My Universe <br>
+        <div class="subtitle">Music of the Spheres</div>`,
+        poster: "./static/img/my_univers1.jpeg",
+    },
+    {
+        id: '12',
+        songName: `Save Me <br>
+        <div class="subtitle">In The Mood For Love pt.2 (2016)</div>`,
+        poster: "./static/img/save_me1.jpg",
+    },
+    {
+        id: '13',
+        songName: `So What <br>
+        <div class="subtitle">Love Yourself 轉 Tear (2018)</div>`,
+        poster: "./static/img/so_what1.jpg",
+    },
+    {
+        id: '14',
+        songName: `UGH! <br>
+        <div class="subtitle">Map Of The Soul 7 (2020)</div>`,
+        poster: "./static/img/ugh1.jpg",
+    },
+    {
+        id: '15',
+        songName: `2 Blood Sweat and Tears
+        <div class="subtitle">WINGS (2016)</div>`,
+        poster: "./static/img/Blood_Sweat_Tears1.jpg",
+    },
 ]
 
 
