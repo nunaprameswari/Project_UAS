@@ -29,6 +29,36 @@ const songs = [
         <div class="subtitle">DD Ceremony</div>`,
         poster: "./static/img/ddaeng1.jpg",
     },
+    {
+        id: '6',
+        songName: `보조개 (Dimple) <br>
+        <div class="subtitle">Love Yourself 承 Her (2017)</div>`,
+        poster: "./static/img/dimple1.jpg",
+    },
+    {
+        id: '7',
+        songName: `Fire <br>
+        <div class="subtitle">In The Mood For Love pt.2 (2016)</div>`,
+        poster: "./static/img/fire1.jpg",
+    },
+    {
+        id: '8',
+        songName: `I NEED U <br>
+        <div class="subtitle">In The Mood For Love pt.1 (2015)</div>`,
+        poster: "./static/img/i_need_u1.jpg",
+    },
+    {
+        id: '9',
+        songName: `I'm Fine <br>
+        <div class="subtitle">Love Yourself 结 Answer (2018)</div>`,
+        poster: "./static/img/iam_fine.jpg",
+    },
+    {
+        id: '10',
+        songName: `Life Goes On <br>
+        <div class="subtitle">BE (2020)</div>`,
+        poster: "./static/img/life_goes_on1.jpg",
+    },
 ]
 
 
