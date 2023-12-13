@@ -119,6 +119,36 @@ const songs = [
         <div class="subtitle">Dynamite (2020)</div>`,
         poster: "./static/img/Dynamite1.jpeg",
     },
+    {
+        id: '21',
+        songName: `Fake Love
+        <div class="subtitle">Love Yourself 轉 Tear (2018)</div>`,
+        poster: "./static/img/FAKE_LOVE1.jpg",
+    },
+    {
+        id: '22',
+        songName: `고민보다 Go (Go Go)
+        <div class="subtitle">Love Yourself 承 Her (2017)</div>`,
+        poster: "./static/img/Go_Go1.jpg",
+    },
+    {
+        id: '23',
+        songName: `Idol
+        <div class="subtitle">Love Yourself 结 Answer (2018)</div>`,
+        poster: "./static/img/Idol1.jpg",
+    },
+    {
+        id: '24',
+        songName: `MIC Drop
+        <div class="subtitle">Love Yourself 承 Her (2017)</div>`,
+        poster: "./static/img/mic_drop1.jpg",
+    },
+    {
+        id: '25',
+        songName: `ON
+        <div class="subtitle">Map Of The Soul 7 (2020)</div>`,
+        poster: "./static/img/ON1.jpeg",
+    },
 ]
 
 
