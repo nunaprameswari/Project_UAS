@@ -640,6 +640,10 @@ header .song_side .popular_song .pop_song li .img_play .bx {
     opacity: 0;
 }
 
+header .song_side .popular_song .pop_song li:hover .img_play .bx {
+    opacity: 1;
+}
+
 header .song_side .popular_song .pop_song li h5 {
     padding: 5px 0px 0px 5px;
     line-height: 15px;
