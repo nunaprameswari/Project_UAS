@@ -149,6 +149,30 @@ const songs = [
         <div class="subtitle">Map Of The Soul 7 (2020)</div>`,
         poster: "./static/img/ON1.jpeg",
     },
+    {
+        id: '26',
+        songName: `Permission to Dance
+        <div class="subtitle">BUTTER (2021)</div>`,
+        poster: "./static/img/Permission_to_dance1.jpeg",
+    },
+    {
+        id: '27',
+        songName: `RUN
+        <div class="subtitle">In The Mood For Love pt.2 (2016)</div>`,
+        poster: "./static/img/run1.jpg",
+    },
+    {
+        id: '28',
+        songName: `Yet To Come (The Most Beatiful Moment)
+        <div class="subtitle">PROOF (2022)</div>`,
+        poster: "./static/img/Yet_To_Come1.png",
+    },
+    {
+        id: '25',
+        songName: `ON
+        <div class="subtitle">Map Of The Soul 7 (2020)</div>`,
+        poster: "./static/img/ON1.jpeg",
+    },
 ]
 
 
