@@ -191,9 +191,13 @@ masterPlay.addEventListener('click', () => {
     if (music.paused || music.currentTime <= 0) {
         music.play();
         wavev.classList.add('active1');
+        masterPlay.classList.remove('bx-play');
+        masterPlay.classList.add('bx-pause');
     } else {
         music.pause();
         wavev.classList.remove('active1');
+        masterPlay.classList.add('bx-play');
+        masterPlay.classList.remove('bx-pause');
     }
 })
 
