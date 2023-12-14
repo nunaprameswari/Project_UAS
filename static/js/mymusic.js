@@ -234,7 +234,7 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
         });
 
         makeAllBackground();
-        Array.from(document.getElementsByClassName('songItem'))[index].style.background = "rgba(73, 1, 102, 0.507)";
+        Array.from(document.getElementsByClassName('songItem'))[index - 1].style.background = "rgba(73, 1, 102, 0.507)";
     })
 })
 

@@ -153,7 +153,6 @@ header .menu_side .menu_song li {
     margin-bottom: 10px;
     cursor: pointer;
     transition: .3s linear;
-    background: rgba(73, 1, 102, 0.507);
 }
 
 header .menu_side .menu_song li:hover {
