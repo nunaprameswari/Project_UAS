@@ -204,6 +204,7 @@ masterPlay.addEventListener('click', () => {
 
 let index = 0;
 let poster_master_play = document.getElementById('poster_master_play');
+let title = document.getElementById('title');
 
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
@@ -217,7 +218,10 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
         let songTitles = songs.filter((els) => {
             return els.id == index;
         });
-        
+
+        songTitles.forEach(elss => {
+            let { songName } = elss;
+        })
     })
 })
 
