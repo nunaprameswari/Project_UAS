@@ -210,7 +210,7 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
         music.src = `./static/songs/${index}.mp3`;
-        poster_master_play.src = `./static/img/${index}.jpg`;
+        // poster_master_play.src = `./static/img/${index}.jpg`;
         music.play();
         masterPlay.classList.remove('bx-play');
         masterPlay.classList.add('bx-pause');
@@ -220,8 +220,9 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
         });
 
         songTitles.forEach(elss => {
-            let { songName } = elss;
+            let { songName, poster } = elss;
             title.innerHTML = songName;
+            poster_master_play.src = poster;
         })
     })
 })
