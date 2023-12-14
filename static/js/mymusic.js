@@ -232,6 +232,9 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
             title.innerHTML = songName;
             poster_master_play.src = poster;
         });
+
+        makeAllBackground();
+        Array.from(document.getElementsByClassName('songItem'))[index].style.background = "rgba(73, 1, 102, 0.507)";
     })
 })
 
