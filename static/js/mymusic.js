@@ -202,6 +202,13 @@ masterPlay.addEventListener('click', () => {
 });
 
 
+const makeAllBackground = () =>{
+    Array.from(document.getElementsByClassName('songItem')).forEach((el) => {
+        el.style.background = 'rgba(73, 1, 102, 0.)';
+    })
+}
+
+
 let index = 0;
 let poster_master_play = document.getElementById('poster_master_play');
 let title = document.getElementById('title');
@@ -223,7 +230,7 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
             let { songName, poster } = elss;
             title.innerHTML = songName;
             poster_master_play.src = poster;
-        })
+        });
     })
 })
 
