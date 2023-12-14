@@ -193,6 +193,7 @@ masterPlay.addEventListener('click', () => {
         wavev.classList.add('active1');
     } else {
         music.pause();
+        wavev.classList.remove('active1');
     }
 })
 
