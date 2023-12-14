@@ -199,6 +199,13 @@ masterPlay.addEventListener('click', () => {
         masterPlay.classList.add('bx-play');
         masterPlay.classList.remove('bx-pause');
     }
+});
+
+
+let index = 0;
+
+Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
+    
 })
 
 
