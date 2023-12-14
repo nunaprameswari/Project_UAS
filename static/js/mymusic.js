@@ -178,6 +178,7 @@ const songs = [
 ]
 
 
+Array.from(document.getElementsByClassName('songItem')).forEach
 
 
 let pop_song_left = document.getElementById('pop_song_left');
