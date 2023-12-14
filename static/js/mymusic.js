@@ -205,7 +205,11 @@ masterPlay.addEventListener('click', () => {
 let index = 0;
 
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
-    
+    e.addEventListener('click', (el) => {
+        index = el.target.id;
+        music.src = `songs/${index}.mp3`;
+        music.play();
+    })
 })
 
 
