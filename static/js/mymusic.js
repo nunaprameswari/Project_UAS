@@ -1,4 +1,4 @@
-const music = new Audio('songs/5.mp3');
+const music = new Audio('./static/songs/5.mp3');
 
 const songs = [
     {
@@ -184,6 +184,15 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
 });
 
 
+let masterPlay = document.getElementById('masterPlay');
+
+masterPlay.addEventListener('click', () => {
+    if (music.paused || music.currentTime <= 0) {
+        music.play();
+    } else {
+        
+    }
+})
 
 
 let pop_song_left = document.getElementById('pop_song_left');
