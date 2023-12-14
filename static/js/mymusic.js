@@ -185,12 +185,14 @@ Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
 
 
 let masterPlay = document.getElementById('masterPlay');
+let wavev = document.getElementById('wavev');
 
 masterPlay.addEventListener('click', () => {
     if (music.paused || music.currentTime <= 0) {
         music.play();
+        wavev.classList.add('active1');
     } else {
-        
+        music.pause();
     }
 })
 
