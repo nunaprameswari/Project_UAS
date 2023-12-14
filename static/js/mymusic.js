@@ -213,6 +213,11 @@ Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
         music.play();
         masterPlay.classList.remove('bx-play');
         masterPlay.classList.add('bx-pause');
+
+        let songTitles = songs.filter((els) => {
+            return els.id == index;
+        });
+        
     })
 })
 
