@@ -1,4 +1,4 @@
-const music = new Audio('./static/songs/5.mp3');
+const music = new Audio('./static/songs/4.mp3');
 
 const songs = [
     {
@@ -21,8 +21,8 @@ const songs = [
     },
     {
         id: '4',
-        songName: `Danger -Japanese Ver.- <br>
-        <div class="subtitle">Danger [Japanese]</div>`,
+        songName: `Danger <br>
+        <div class="subtitle">Dark & Wild (2014)</div>`,
         poster: "./static/img/danger1.png",
     },
     {
@@ -203,12 +203,16 @@ masterPlay.addEventListener('click', () => {
 
 
 let index = 0;
+let poster_master_play = document.getElementById('poster_master_play');
 
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
-        music.src = `songs/${index}.mp3`;
+        music.src = `./static/songs/${index}.mp3`;
+        poster_master_play.src = `./static/img/${index}.jpg`;
         music.play();
+        masterPlay.classList.remove('bx-play');
+        masterPlay.classList.add('bx-pause');
     })
 })
 
