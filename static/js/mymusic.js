@@ -1,4 +1,4 @@
-const music = new Audio('./static/songs/4.mp3');
+const music = new Audio('./static/songs/3.mp3');
 
 const songs = [
     {
@@ -20,7 +20,7 @@ const songs = [
         poster: "./static/img/black_swan1.jpg",
     },
     {
-        id: '4',
+        id: '04',
         songName: `Danger <br>
         <div class="subtitle">Dark & Wild (2014)</div>`,
         poster: "./static/img/danger1.png",
@@ -216,6 +216,7 @@ let title = document.getElementById('title');
 Array.from(document.getElementsByClassName('playListPlay')).forEach((e) => {
     e.addEventListener('click', (el) => {
         index = el.target.id;
+        // console.log(index);
         music.src = `./static/songs/${index}.mp3`;
         // poster_master_play.src = `./static/img/${index}.jpg`;
         music.play();
